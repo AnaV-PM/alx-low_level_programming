@@ -8,26 +8,23 @@
  *
  * Return: dest
  */
-
-/***#### 0-strcat.c ###***/
-
 char *_strncat(char *dest, char *src, int n)
 {
-	int anav;
+	int i;
 	int j;
 
 	i = 0;
-	while (dest[anav] != '\0')
-{
-		anav++;
-}
+	while (dest[i] != '\0')
+	{
+		i++;
+	}
 	j = 0;
 	while (j < n && src[j] != '\0')
-{
-	dest[anav] = src[j];
-	anav++;
+	{
+	dest[i] = src[j];
+	i++;
 	j++;
-}
-	dest[anav] = '\0';
+	}
+	dest[i] = '\0';
 	return (dest);
 	}
