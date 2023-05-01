@@ -1,7 +1,6 @@
 #include "main.h"
 
 /***#### anav-pm ###***/
-
 /**
  * _strchr - Entry point
  * @s: input
