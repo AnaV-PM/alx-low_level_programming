@@ -5,7 +5,6 @@
  * Return: first integer in string
  */
 
-/***#### anav-pm ###***/
 
 int _atoi(char *s)
 {
