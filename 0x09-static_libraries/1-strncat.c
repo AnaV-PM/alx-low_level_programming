@@ -10,7 +10,6 @@
  * Return: dest
  */
 
-/***#### anav-pm ###***/
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
@@ -21,7 +20,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		j++;
 		i++;
-	}
+}
 
 	i = 0;
 	while (*(src + i) != *(src + n))
@@ -29,7 +28,7 @@ char *_strncat(char *dest, char *src, int n)
 		*(dest + j) = *(src + i);
 		i++;
 		j++;
-	}
+}
 	*(dest + j) = '\0';
 	return (dest);
 }
