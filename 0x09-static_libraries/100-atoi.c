@@ -5,7 +5,6 @@
  * Return: first integer in string
  */
 
-
 int _atoi(char *s)
 {
 	int signs = 1;

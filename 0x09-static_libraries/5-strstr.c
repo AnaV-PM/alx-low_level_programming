@@ -1,11 +1,9 @@
 #include "main.h"
-/***#### anav-pm ###***/
 /**
  * _strstr - first occurrence
  * @haystack: string where the search is made
  * @needle: string whose occurence is searched in haystack
- * Return:Returns a pointer to the beginning of the located
- * substring, or NULL
+ * Return: substring, or NULL
 */
 
 char *_strstr(char *haystack, char *needle)

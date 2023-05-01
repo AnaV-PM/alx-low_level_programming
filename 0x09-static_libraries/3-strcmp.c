@@ -1,5 +1,4 @@
 #include "main.h"
-/***#### anav-pm ###***/
 /**
  * _strcmp - compare string values
  * @s1: input value
