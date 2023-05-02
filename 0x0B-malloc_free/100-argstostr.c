@@ -7,10 +7,10 @@
  * @av: Array of arguments passed to the program.
  * Return: Pointer to a new string, or NULL if it fails.
  */
-anav *argstostr(int ac, anav **av)
+char *argstostr(int ac, char **av)
 {
 	int i, j, k, size;
-	anav *arg;
+	char *arg;
 
 	size = 0;
 	k = 0;
@@ -28,7 +28,7 @@ anav *argstostr(int ac, anav **av)
 		size++;
 		i++;
 	}
-	arg = malloc((sizeof(anav) * size) + 1);
+	arg = malloc((sizeof(char) * size) + 1);
 	if (arg == NULL)
 		return (NULL);
 	i = 0;
