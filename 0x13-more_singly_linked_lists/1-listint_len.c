@@ -1,5 +1,4 @@
 #include "lists.h"
-#include <stdlib.h>
 /**
  * listint_len - return the number of a listint_t list
  * @h: linked list to the head of the list
