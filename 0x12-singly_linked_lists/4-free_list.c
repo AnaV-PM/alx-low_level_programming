@@ -1,5 +1,5 @@
-#include "lists.h"
 #include <stdio.h>
+#include "lists.h"
 
 /**
  * free_list - frees up all the memory allocated for a list
@@ -19,5 +19,4 @@ void free_list(list_t *head)
 		free(head->str);
 		head = head->next;
 		free(temp);
-	}
 }
